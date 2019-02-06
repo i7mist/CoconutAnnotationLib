@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CoconutAnnotationLib:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CoconutAnnotationLib_jar</output-path>
+    <root id="archive" name="CoconutAnnotationLib.jar">
+      <element id="module-output" name="CoconutAnnotationLib" />
+    </root>
+  </artifact>
+</component>
