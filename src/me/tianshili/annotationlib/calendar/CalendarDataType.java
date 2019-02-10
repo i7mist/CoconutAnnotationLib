@@ -6,16 +6,19 @@ package me.tianshili.annotationlib.calendar;
 
 public enum  CalendarDataType {
     // Calendars table
+
     CALENDAR_DISPLAY_NAME, // CALENDAR_DISPLAY_NAME
-    CALENDAR_OWNER,
+    CALENDAR_OWNER, //OWNER_ACCOUNT
+
     // Events table
     EVENT_TITLE,
-    EVENT_OWNER, // specific owner, all owners, owner email address
+    EVENT_CALENDAR_ID, //CALENDAR_ID from event
     EVENT_DESCRIPTION,
     EVENT_LOCATION,
-    EVENT_ORGANIZER,
-    EVENT_TIME, // DTSTART, DTEND, DURATION, ALL_DAY, RRULE, RDATE
+    EVENT_ORGANIZER, //email of organizer of event
+    EVENT_TIME, // DTSTART, DTEND, DURATION, ALL_DAY, RRULE, RDATE, EXRULE, EXDATE
     // Attendees table
     EVENT_ATTENDEE, // ATTENDEE_NAME, ATTENDEE_EMAIL, ATTENDEE_RELATIONSHIP
     UNKNOWN
 }
+
