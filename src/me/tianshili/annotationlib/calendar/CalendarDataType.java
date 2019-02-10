@@ -19,6 +19,15 @@ public enum  CalendarDataType {
     EVENT_TIME, // DTSTART, DTEND, DURATION, ALL_DAY, RRULE, RDATE, EXRULE, EXDATE
     // Attendees table
     EVENT_ATTENDEE, // ATTENDEE_NAME, ATTENDEE_EMAIL, ATTENDEE_RELATIONSHIP
+
+    // Attendees table
+    ATTENDEE_INFO, //ATTENDEE_EMAIL, ATTENDEE_IDENTITY, ATTENDEE_NAME
+    ATTENDEE_RELATIONSHIP, //integer values
+    ATTENDEE_STATUS, //integer values
+    ATTENDEE_TYPE, //integer values
+
     UNKNOWN
+
+
 }
 
