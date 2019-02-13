@@ -7,12 +7,15 @@ package me.tianshili.annotationlib.calendar;
 public enum  CalendarDataType {
     // Calendars table
 
+    //TODO: add fields from ExtendedProperties column
+
     CALENDAR_DISPLAY_NAME, // CALENDAR_DISPLAY_NAME
     CALENDAR_OWNER, //OWNER_ACCOUNT
 
+    CALENDAR_ID, //CALENDAR_ID from events, attendees table
+
     // Events table
     EVENT_TITLE,
-    EVENT_CALENDAR_ID, //CALENDAR_ID from event
     EVENT_DESCRIPTION,
     EVENT_LOCATION,
     EVENT_ORGANIZER, //email of organizer of event
