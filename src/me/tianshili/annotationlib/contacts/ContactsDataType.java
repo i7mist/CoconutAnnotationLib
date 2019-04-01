@@ -5,22 +5,17 @@ package me.tianshili.annotationlib.contacts;
  */
 
 public enum ContactsDataType {
-        //DataColumns Table
+    //All Tables (implicitly except RawContacts table unless otherwise specified)
 
-        RAW_CONTACT_ID, // RAW_CONTACT_ID
-
-    // RawContactsColumns table
-        CONTACT_ID, //CONTACT_ID
-        CONTACT_EMAIL, //ACCOUNT_NAME
-        ACCOUNT_TYPE,
-
-        // ContactsColumns table
-        PHOTO_URI, //PHOTO_URI
-        PHOTO_THUMBNAIL_URI, //PHOTO_THUMBNAIL_URI
+    RAW_CONTACT_ID,
+    ID,
+    LOOKUP_KEY,
+    PHOTO,
+    DISPLAY_NAME,
+    SOURCE_ID,
 
 
-        UNKNOWN
-
+    UNKNOWN
 
 
 }
