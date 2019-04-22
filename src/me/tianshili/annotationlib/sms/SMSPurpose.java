@@ -5,4 +5,11 @@ package me.tianshili.annotationlib.sms;
  */
 
 public enum SMSPurpose {
+    send_messages,
+    organize_messages,
+    extract_message_content,
+    block_messages,
+    schedule_messages,
+    back_up_or_sync_messages,
+    UNKNOWN
 }
