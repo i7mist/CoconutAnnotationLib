@@ -12,5 +12,6 @@ public enum UIDPurpose {
     managing_telephony_and_carrier_functionality,
     identifying_bots_and_DDOS_attacks, // In this case, you are trying to detect multiple fake devices attacking your backend services.
     detecting_high_value_stolen_credentials, // In this case, you are trying to detect if a single device is being used multiple times with high-value, stolen credentials (e.g. to make fraudulent payments)
+    other_purposes_explained_in_text,
     UNKNOWN,
 }

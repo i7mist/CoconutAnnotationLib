@@ -12,7 +12,6 @@ public enum ContactsPurpose {
     find_friends,
     record,
     fake_calls_and_sms,
-
-
+    other_purposes_explained_in_text,
     UNKNOWN
 }

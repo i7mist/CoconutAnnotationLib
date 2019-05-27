@@ -16,5 +16,6 @@ public enum LocationPurpose {
     location_based_game,
     data_collection_for_analytics,
     data_collection_for_advertising,
+    other_purposes_explained_in_text,
     UNKNOWN,
 }

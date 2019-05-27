@@ -7,5 +7,6 @@ public enum CalendarPurpose {
     context_prediction,
     schedule,
     alarm,
+    other_purposes_explained_in_text,
     UNKNOWN
 }
