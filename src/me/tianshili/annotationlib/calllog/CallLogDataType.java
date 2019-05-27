@@ -1,10 +1,10 @@
-package me.tianshili.annotationlib.calllogs;
+package me.tianshili.annotationlib.calllog;
 
 /**
  * Created by tiffany on 5/18/17.
  */
 
-public enum CallLogsDataType {
+public enum CallLogDataType {
     //Calls Column
     LAST_OUTGOING_CALL, //method call
     CACHED_DATA, //cached data
