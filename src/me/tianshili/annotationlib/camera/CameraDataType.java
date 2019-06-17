@@ -6,6 +6,8 @@ package me.tianshili.annotationlib.camera;
  * @author elijahneundorfer on 6/3/19
  */
 public enum CameraDataType {
-    raw_data,
+    image,
+    video,
+    metadata,
     UNKNOWN
 }
