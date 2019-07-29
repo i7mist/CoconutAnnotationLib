@@ -12,7 +12,7 @@ public @interface LocationAnnotation {
     // TODO: after integrating dataflow analysis, we will substitute data destination field with another annotation that specifies the justification for leaking the data.
     // TODO: after integrating dataflow analysis, we will move the purpose field to function/class level
     // TODO: add default options after integrating dataflow analysis
-
+    String ID();
     LocationDataType[] dataType();
     // visibility and access frequency are relatively easier to acquire using dynamic analysis. Not sure if we are gonna include them
     // Let developers specify them can be helpful when generating privacy policy/in-app notices. However, I doubt developers can not infer that very accurately.

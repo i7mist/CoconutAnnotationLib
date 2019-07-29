@@ -9,6 +9,7 @@ import me.tianshili.annotationlib.commons.*;
  */
 
 public @interface ContactsAnnotation {
+    String ID();
     ContactsDataType[] dataType();
     // visibility and access frequency are relatively easier to acquire using dynamic analysis. Not sure if we are gonna include them
     // Let developers specify them can be helpful when generating privacy policy/in-app notices. However, I doubt developers can not infer that very accurately.
