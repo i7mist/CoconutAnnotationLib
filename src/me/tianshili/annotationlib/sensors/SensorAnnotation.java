@@ -7,6 +7,7 @@ import me.tianshili.annotationlib.commons.Visibility;
  * @version 6/17/19
  */
 public @interface SensorAnnotation {
+    String ID();
     SensorDataType[] dataType();
     Visibility[] visibility();
     SensorPurpose[] purpose();
