@@ -6,6 +6,7 @@ import me.tianshili.annotationlib.commons.Visibility;
  * Created by tianshi on 2/8/18.
  */
 public @interface UndefinedPersonalDataTypeAnnotation {
+    String ID();
     String [] purposeDescription();
     String [] dataType();
     // visibility and access frequency are relatively easier to acquire using dynamic analysis. Not sure if we are gonna include them
