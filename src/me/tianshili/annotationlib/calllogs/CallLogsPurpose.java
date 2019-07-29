@@ -1,10 +1,10 @@
-package me.tianshili.annotationlib.calllog;
+package me.tianshili.annotationlib.calllogs;
 
 /**
  * Created by tiffany on 5/18/17.
  */
 
-public enum CallLogPurpose {
+public enum CallLogsPurpose {
     call,
     record,
     other_purposes_explained_in_text,
