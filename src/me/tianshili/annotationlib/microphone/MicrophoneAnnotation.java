@@ -7,6 +7,7 @@ import me.tianshili.annotationlib.commons.Visibility;
  * @version 6/4/19
  */
 public @interface MicrophoneAnnotation {
+    String ID();
     Visibility[] visibility();
     MicrophoneDataType[] dataType();
     MicrophonePurpose[] purpose();
