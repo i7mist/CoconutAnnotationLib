@@ -5,5 +5,5 @@ package me.tianshili.annotationlib.network;
  */
 
 public @interface Network {
-    String [] destination();
+    String [] destinations();
 }

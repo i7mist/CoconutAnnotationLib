@@ -8,5 +8,5 @@ import me.tianshili.annotationlib.commons.Visibility;
 
 public @interface CallLogsSource {
     String ID();
-    String [] purpose();
+    String [] purposes();
 }

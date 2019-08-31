@@ -6,5 +6,5 @@ package me.tianshili.annotationlib.uniqueidentifier;
 
 public @interface UniqueIdentifierSource {
     String ID();
-    String [] purpose();
+    String [] purposes();
 }

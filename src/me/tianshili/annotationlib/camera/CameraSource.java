@@ -9,5 +9,5 @@ import me.tianshili.annotationlib.commons.Visibility;
  */
 public @interface CameraSource {
     String ID();
-    String [] purpose();
+    String [] purposes();
 }

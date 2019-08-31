@@ -8,5 +8,5 @@ import me.tianshili.annotationlib.commons.*;
 
 public @interface SMSSource {
     String ID();
-    String [] purpose();
+    String [] purposes();
 }

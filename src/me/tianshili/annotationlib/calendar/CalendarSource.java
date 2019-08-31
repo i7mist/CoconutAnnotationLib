@@ -7,5 +7,5 @@ import me.tianshili.annotationlib.commons.*;
 
 public @interface CalendarSource {
     String ID();
-    String [] purpose();
+    String [] purposes();
 }

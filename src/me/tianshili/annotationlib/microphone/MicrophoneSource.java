@@ -8,5 +8,5 @@ import me.tianshili.annotationlib.commons.Visibility;
  */
 public @interface MicrophoneSource {
     String ID();
-    String [] purpose();
+    String [] purposes();
 }

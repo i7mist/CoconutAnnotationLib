@@ -10,5 +10,5 @@ import me.tianshili.annotationlib.commons.*;
 
 public @interface ContactsSource {
     String ID();
-    String [] purpose();
+    String [] purposes();
 }

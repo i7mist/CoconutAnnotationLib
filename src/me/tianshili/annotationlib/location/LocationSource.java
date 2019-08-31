@@ -13,5 +13,5 @@ public @interface LocationSource {
     // TODO: after integrating dataflow analysis, we will move the purpose field to function/class level
     // TODO: add default options after integrating dataflow analysis
     String ID();
-    String [] purpose();
+    String [] purposes();
 }
