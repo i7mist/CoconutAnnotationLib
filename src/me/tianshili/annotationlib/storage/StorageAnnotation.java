@@ -5,7 +5,6 @@ package me.tianshili.annotationlib.storage;
  */
 
 public @interface StorageAnnotation {
-    String [] retentionTime();
-    String [] purposeDescription();
+    String [] egressDescription();
     AccessControlOption [] accessControl();
 }
