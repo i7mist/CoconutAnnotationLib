@@ -1,7 +1,7 @@
 package me.tianshili.annotationlib.microphone;
 
-public interface MicrophoneSink {
-    String ID();
+public @interface MicrophoneSink {
+    String [] IDs();
     String [] purposes();
     String [] dataTypes();
 }

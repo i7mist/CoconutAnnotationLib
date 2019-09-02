@@ -1,7 +1,7 @@
 package me.tianshili.annotationlib.location;
 
-public interface LocationSink {
-    String ID();
+public @interface LocationSink {
+    String [] IDs();
     String [] purposes();
     String [] dataTypes();
 }

@@ -1,7 +1,7 @@
 package me.tianshili.annotationlib.contacts;
 
-public interface ContactsSink {
-    String ID();
+public @interface ContactsSink {
+    String [] IDs();
     String [] purposes();
     String [] dataTypes();
 }
