@@ -5,7 +5,7 @@ package me.tianshili.annotationlib.uniqueidentifier;
  */
 
 public enum UIDResettability {
-    USER_RESETTABLE_IN_SYSTEM_SETTINGS,
+    USER_RESETTABLE,
     RESET_WHEN_SESSION_END,
     RESET_WHEN_REINSTALL, // package name and signing key are the same
     RESET_WHEN_FACTORY_RESET,

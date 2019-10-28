@@ -12,5 +12,6 @@ public enum UIDType {
     ADVERTISING_ID,
     INSTANCE_ID,
     SELF_GENERATED_UID,
+    IP_ADDRESS,
     UNKNOWN
 }

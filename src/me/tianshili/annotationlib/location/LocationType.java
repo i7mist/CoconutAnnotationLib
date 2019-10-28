@@ -4,7 +4,7 @@ package me.tianshili.annotationlib.location;
  * Created by tianshi on 11/9/17.
  */
 
-public enum LocationDataType {
+public enum LocationType {
     FINE_GRAINED_LATITUDE_LONGITUDE,
     COARSE_GRAINED_LATITUDE_LONGITUDE,
     CITY_LEVEL_LATITUDE_LONGITUDE,

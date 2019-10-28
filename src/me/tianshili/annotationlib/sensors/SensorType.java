@@ -4,7 +4,7 @@ package me.tianshili.annotationlib.sensors;
  * @author Elijah Neundorfer 6/17/19
  * @version 6/24/19
  */
-public enum SensorDataType {
+public enum SensorType {
     ACCELEROMETER,
     ACCELEROMETER_UNCALIBRATED,
     AMBIENT_TEMPERATURE,

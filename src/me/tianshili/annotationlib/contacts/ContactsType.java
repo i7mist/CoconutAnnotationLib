@@ -4,7 +4,7 @@ package me.tianshili.annotationlib.contacts;
  * Created by tiffany on 3/28/19.
  */
 
-public enum ContactsDataType {
+public enum ContactsType {
     //All Tables (implicitly except RawContacts table unless otherwise specified)
 
     RAW_CONTACT_ID,

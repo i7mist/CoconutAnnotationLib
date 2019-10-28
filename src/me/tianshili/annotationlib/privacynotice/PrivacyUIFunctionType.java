@@ -1,0 +1,12 @@
+package me.tianshili.annotationlib.privacynotice;
+
+enum PrivacyUIFunctionType {
+    PRIVACY_POLICY,
+    DATA_USE_CONSENT_DIALOG,
+    DATA_USE_PURPOSE_EXPLANATION,
+    DATA_SHARING_DETAILS,
+    DATA_ACCESS_CONTROL_SETTINGS,
+    SHOW_PAST_COLLECTED_DATA,
+    DATA_DELETION_REQUEST,
+    OTHERS
+}

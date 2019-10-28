@@ -5,8 +5,8 @@ package me.tianshili.annotationlib.uniqueidentifier;
  */
 
 public enum UIDScope {
-    PER_APP,
-    PER_APP_GROUP,
-    PER_DEVICE,
+    APP_LEVEL,
+    APP_GROUP_LEVEL,
+    DEVICE_LEVEL,
     UNKNOWN
 }

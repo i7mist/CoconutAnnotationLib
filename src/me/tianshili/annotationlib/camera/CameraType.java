@@ -5,9 +5,9 @@ package me.tianshili.annotationlib.camera;
  *
  * @author elijahneundorfer on 6/3/19
  */
-public enum CameraDataType {
-    image,
-    video,
-    metadata,
+public enum CameraType {
+    IMAGE,
+    VIDEO,
+    METADATA,
     UNKNOWN
 }

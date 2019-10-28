@@ -5,8 +5,8 @@ package me.tianshili.annotationlib.calllogs;
  */
 
 public enum CallLogsPurpose {
-    call,
-    record,
-    other_purposes_explained_in_text,
+    CALL,
+    RECORD,
+    OTHER_PURPOSES,
     UNKNOWN
 }
