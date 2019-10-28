@@ -7,7 +7,7 @@ import me.tianshili.annotationlib.commons.AppState;
  */
 
 public @interface UIDSource {
-    String ID();
+    String dataID();
     UIDType[] dataTypes();
     UIDPurpose[] purposeCategories();
     String[] purposeDescriptions();

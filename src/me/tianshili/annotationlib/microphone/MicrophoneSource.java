@@ -7,7 +7,7 @@ import me.tianshili.annotationlib.commons.AppState;
  * @version 6/4/19
  */
 public @interface MicrophoneSource {
-    String ID();
+    String dataID();
     MicrophoneType[] dataTypes();
     MicrophonePurpose[] purposeCategories();
     String [] purposeDescriptions();
