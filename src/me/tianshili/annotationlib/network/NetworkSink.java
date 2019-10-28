@@ -2,7 +2,7 @@ package me.tianshili.annotationlib.network;
 
 public @interface NetworkSink {
     String [] dataIDs();
-    String [] dataTypes();
+    String [] dataDescriptions();
     RetentionType[] retentionTypes();
     SharingTargetType[] sharingTargetTypes();
 }
