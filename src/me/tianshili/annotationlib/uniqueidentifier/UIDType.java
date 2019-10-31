@@ -13,5 +13,6 @@ public enum UIDType {
     INSTANCE_ID,
     SELF_GENERATED_UID,
     IP_ADDRESS,
+    OTHER_UID,
     UNKNOWN
 }
