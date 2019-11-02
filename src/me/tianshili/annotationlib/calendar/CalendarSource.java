@@ -7,7 +7,7 @@ import me.tianshili.annotationlib.commons.*;
 
 public @interface CalendarSource {
     String dataID();
-    CalendarDataType[] dataTypes();
+    CalendarType[] dataTypes();
     CalendarPurpose[] purposeCategories();
     String [] purposeDescriptions();
     AppState appStateWhenCollection();

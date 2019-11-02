@@ -4,7 +4,7 @@ package me.tianshili.annotationlib.calendar;
  * Created by tianshi on 12/4/17.
  */
 
-public enum  CalendarDataType {
+public enum CalendarType {
     // Calendars table
 
     //TODO: add fields from ExtendedProperties column
