@@ -11,5 +11,5 @@ public @interface CameraSource {
     CameraType[] dataTypes();
     CameraPurpose[] purposeCategories();
     String [] purposeDescriptions();
-    AppState appStateWhenCollection();
+    AppState appStateAtCollection();
 }

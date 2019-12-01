@@ -6,6 +6,7 @@ package me.tianshili.annotationlib.storage;
 
 public @interface LocalStorageSink {
     String [] dataIDs();
+    String [] dataDescriptions();
     AccessScope accessScope();
-    boolean uploadLater();
+    boolean sentOutLater();
 }

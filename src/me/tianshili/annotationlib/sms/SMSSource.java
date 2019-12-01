@@ -11,5 +11,5 @@ public @interface SMSSource {
     SMSType[] dataTypes();
     SMSPurpose[] purposeCategories();
     String [] purposeDescriptions();
-    AppState appStateWhenCollection();
+    AppState appStateAtCollection();
 }

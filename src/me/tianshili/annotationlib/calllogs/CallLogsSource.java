@@ -11,5 +11,5 @@ public @interface CallLogsSource {
     CallLogsType[] dataTypes();
     CallLogsPurpose[] purposeCategories();
     String [] purposeDescriptions();
-    AppState appStateWhenCollection();
+    AppState appStateAtCollection();
 }

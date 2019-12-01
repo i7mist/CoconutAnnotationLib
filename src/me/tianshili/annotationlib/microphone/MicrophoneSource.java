@@ -11,5 +11,5 @@ public @interface MicrophoneSource {
     MicrophoneType[] dataTypes();
     MicrophonePurpose[] purposeCategories();
     String [] purposeDescriptions();
-    AppState appStateWhenCollection();
+    AppState appStateAtCollection();
 }

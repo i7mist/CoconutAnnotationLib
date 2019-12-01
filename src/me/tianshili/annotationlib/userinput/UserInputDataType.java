@@ -16,5 +16,6 @@ public enum UserInputDataType {
     FEEDBACK, // feedback on services
     USER_GENERATED_CONTENT, // posts, comment
     OTHER_INFO,
+    // TODO: check wikipedia PII list
     UNKNOWN
 }

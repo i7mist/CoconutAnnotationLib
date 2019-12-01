@@ -12,5 +12,5 @@ public @interface LocationSource {
     LocationType[] dataTypes();
     LocationPurpose[] purposeCategories();
     String [] purposeDescriptions();
-    AppState appStateWhenCollection();
+    AppState appStateAtCollection();
 }

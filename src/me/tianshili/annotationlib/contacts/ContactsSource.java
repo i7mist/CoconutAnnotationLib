@@ -11,5 +11,5 @@ public @interface ContactsSource {
     ContactsType[] dataTypes();
     ContactsPurpose[] purposeCategories();
     String [] purposeDescriptions();
-    AppState appStateWhenCollection();
+    AppState appStateAtCollection();
 }

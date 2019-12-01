@@ -1,6 +1,6 @@
 package me.tianshili.annotationlib.network;
 
-public enum RetentionType {
+public enum RetentionPractice {
     NOT_RETAINED,
     RETAINED_WITH_TTL,
     RETAINED_INFINITELY,

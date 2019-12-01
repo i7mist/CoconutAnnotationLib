@@ -10,5 +10,5 @@ public @interface CalendarSource {
     CalendarType[] dataTypes();
     CalendarPurpose[] purposeCategories();
     String [] purposeDescriptions();
-    AppState appStateWhenCollection();
+    AppState appStateAtCollection();
 }

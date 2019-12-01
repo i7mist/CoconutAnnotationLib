@@ -11,5 +11,5 @@ public @interface UIDSource {
     UIDType[] dataTypes();
     UIDPurpose[] purposeCategories();
     String[] purposeDescriptions();
-    AppState appStateWhenCollection();
+    AppState appStateAtCollection();
 }

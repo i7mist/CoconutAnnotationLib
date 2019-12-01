@@ -11,5 +11,5 @@ public @interface SensorSource {
     SensorType[] dataTypes();
     SensorPurpose[] purposeCategories();
     String [] purposeDescriptions();
-    AppState appStateWhenCollection();
+    AppState appStateAtCollection();
 }

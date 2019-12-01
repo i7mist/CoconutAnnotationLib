@@ -1,6 +1,6 @@
 package me.tianshili.annotationlib.network;
 
-public enum SharingTargetType {
+public enum SharingPractice {
     NOT_SHARED_WITH_ANY_EXTERNAL_PARTIES,
     VISIBLE_TO_OTHER_REGISTERED_USERS,
     VISIBLE_TO_THE_PUBLIC,

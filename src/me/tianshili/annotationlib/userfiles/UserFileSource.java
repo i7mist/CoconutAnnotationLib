@@ -7,5 +7,5 @@ public @interface UserFileSource {
     UserFileType[] dataTypes();
     UserFilePurpose[] purposeCategories();
     String [] purposeDescriptions();
-    AppState appStateWhenCollection();
+    AppState appStateAtCollection();
 }
