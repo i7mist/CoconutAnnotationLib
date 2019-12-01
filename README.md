@@ -5,7 +5,7 @@ Quick start guide
 -----------------
 ### Gradle
 ```
-compile 'me.tianshili.annotationlib:coconutannotationlib-android-sdk:1.0.0'
+compile 'me.tianshili.annotationlib:coconutannotationlib-android-sdk:1.1.0'
 ```
 
 ### Maven
@@ -13,14 +13,14 @@ compile 'me.tianshili.annotationlib:coconutannotationlib-android-sdk:1.0.0'
 <dependency>
 	<groupId>me.tianshili.annotationlib</groupId>
 	<artifactId>coconutannotationlib-android-sdk</artifactId>
-	<version>1.0.0</version>
+	<version>1.1.0</version>
 	<type>pom</type>
 </dependency>
 ```
 
 ### Ivy
 ```
-<dependency org="me.tianshili.annotationlib" name="coconutannotationlib-android-sdk" rev="1.0.0">
+<dependency org="me.tianshili.annotationlib" name="coconutannotationlib-android-sdk" rev="1.1.0">
 	<artifact name="coconutannotationlib-android-sdk" ext="pom"></artifact>
 </dependency>
 ```
