@@ -1,6 +1,6 @@
 package me.tianshili.annotationlib.privacynotice;
 
-public enum PrivacyUIFunctionType {
+public enum PrivacyNoticeType {
     PRIVACY_POLICY,
     DATA_USE_USER_CONSENT_DIALOG,
     DATA_USE_PARENTAL_CONSENT_DIALOG,
@@ -8,9 +8,5 @@ public enum PrivacyUIFunctionType {
     DATA_SHARING_DETAILS,
     DATA_RETENTION_DETAILS,
     SHOW_PAST_COLLECTED_DATA,
-    DATA_ACCESS_CONTROL_SETTINGS,
-    DATA_SHARING_CONTROL_SETTINGS,
-    DATA_RETENTION_CONTROL_SETTINGS,
-    OTHER_FUNCTIONS,
     UNKNOWN
 }
