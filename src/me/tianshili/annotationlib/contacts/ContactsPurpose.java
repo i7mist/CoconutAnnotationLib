@@ -3,15 +3,15 @@ package me.tianshili.annotationlib.contacts;
 //TODO: Update ContactsPurpose based on some predetermined metric
 
 public enum ContactsPurpose {
-    backup_and_synchronization,
-    contact_management,
-    blacklist,
-    call_and_sms,
-    contact_based_customization,
-    email,
-    find_friends,
-    record,
-    fake_calls_and_sms,
-    other_purposes_explained_in_text,
+    BACKUP_AND_SYNCHRONIZATION,
+    CONTACT_MANAGEMENT,
+    BLACKLIST,
+    CALL_AND_SMS,
+    CONTACT_BASED_CUSTOMIZATION,
+    EMAIL,
+    FIND_FRIENDS,
+    RECORD,
+    FAKE_CALLS_AND_SMS,
+    OTHER_PURPOSES,
     UNKNOWN
 }

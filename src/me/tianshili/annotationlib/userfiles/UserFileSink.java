@@ -1,4 +1,4 @@
-package me.tianshili.annotationlib.userfile;
+package me.tianshili.annotationlib.userfiles;
 
 public @interface UserFileSink {
     String [] IDs();

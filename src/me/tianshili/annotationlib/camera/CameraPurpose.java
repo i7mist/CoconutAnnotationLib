@@ -5,13 +5,14 @@ package me.tianshili.annotationlib.camera;
  * @author elijahneundorfer on 6/3/19
  */
 public enum CameraPurpose {
-    flashlight, //Turn on/off flashlight
-    video_streaming, //Steam the video capture
-    code_scanning, //Scan QR code
-    document_scanning, //Scan document
-    augment_reality, //Capture videos
-    text_recognition, //Recognize the text in the live video capture
-    photo_taking, //Take photos
-    other_purposes_explained_in_text,
+    FLASHLIGHT, //Turn on/off flashlight
+    VIDEO_STREAMING, //Steam the video capture
+    CODE_SCANNING, //Scan QR code
+    DOCUMENT_SCANNING, //Scan document
+    AUGMENT_REALITY,
+    VIDEO_RECORDING,
+    TEXT_RECOGNITION, //Recognize the text in the live video capture
+    PHOTO_TAKING, //Take photos
+    OTHER_PURPOSES,
     UNKNOWN
 }
