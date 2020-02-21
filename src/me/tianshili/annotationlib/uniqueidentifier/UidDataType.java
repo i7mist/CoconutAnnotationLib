@@ -4,7 +4,7 @@ package me.tianshili.annotationlib.uniqueidentifier;
  * Created by tianshi on 1/20/18.
  */
 
-public enum UIDDataType {
+public enum UidDataType {
     ANDROID_ID,
     TELEPHONY_DEVICE_ID,
     LINE1_PHONE_NUMBER,

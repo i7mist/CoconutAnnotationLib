@@ -4,7 +4,7 @@ package me.tianshili.annotationlib.uniqueidentifier;
  * Created by tianshi on 11/9/17.
  */
 
-public enum UIDUsageRationale {
+public enum UidUsageRationale {
     TRACKING_DATA_COLLECTED_WITHIN_APP,
     TRACKING_DATA_COLLECTED_FROM_OTHER_APPS,
     HANDLE_MULTIPLE_INSTALLS,

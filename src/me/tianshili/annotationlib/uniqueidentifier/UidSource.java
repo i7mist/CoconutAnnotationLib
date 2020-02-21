@@ -7,10 +7,10 @@ import me.tianshili.annotationlib.commons.Visibility;
  * Created by tianshi on 1/20/18.
  */
 
-public @interface UIDSource {
+public @interface UidSource {
     String dataSourceID();
-    UIDDataType [] dataTypes();
-    UIDUsageRationale rationaleCategory();
+    UidDataType[] dataTypes();
+    UidUsageRationale rationaleCategory();
     String rationaleExplanation();
     Visibility dataCollectionVisibility();
     JitNoticeFrequency jitNoticeDefaultFrequency();
