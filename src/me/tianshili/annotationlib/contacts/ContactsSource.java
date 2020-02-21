@@ -1,7 +1,5 @@
 package me.tianshili.annotationlib.contacts;
 
-import me.tianshili.annotationlib.contacts.ContactsDataType;
-import me.tianshili.annotationlib.contacts.ContactsPurpose;
 import me.tianshili.annotationlib.commons.*;
 
 /**
@@ -9,6 +7,10 @@ import me.tianshili.annotationlib.commons.*;
  */
 
 public @interface ContactsSource {
-    String ID();
-    String [] purposes();
+    String dataSourceID();
+    ContactsDataType [] dataTypes();
+    ContactsUsageRationale rationaleCategory();
+    String rationaleExplanation();
+    Visibility dataCollectionVisibility();
+    JitNoticeFrequency jitNoticeDefaultFrequency();
 }

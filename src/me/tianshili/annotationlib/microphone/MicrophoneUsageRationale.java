@@ -3,7 +3,7 @@ package me.tianshili.annotationlib.microphone;
 /**
  * @author elijahneundorfer on 6/3/19
  */
-public enum MicrophonePurpose {
+public enum MicrophoneUsageRationale {
     VOICE_AUTHENTICATION, //Authenticate users using voices
     AUDIO_STREAMING, //Make VOIP phone calls
     VOICE_CONTROL, //Use voice to send the command

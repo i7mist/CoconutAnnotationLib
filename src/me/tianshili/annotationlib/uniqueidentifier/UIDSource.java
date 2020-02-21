@@ -1,16 +1,16 @@
-package me.tianshili.annotationlib.calllogs;
+package me.tianshili.annotationlib.uniqueidentifier;
 
 import me.tianshili.annotationlib.commons.JitNoticeFrequency;
 import me.tianshili.annotationlib.commons.Visibility;
 
 /**
- * Created by tiffany on 5/18/17.
+ * Created by tianshi on 1/20/18.
  */
 
-public @interface CallLogsSource {
+public @interface UIDSource {
     String dataSourceID();
-    CallLogsDataType[] dataTypes();
-    CallLogsUsageRationale rationaleCategory();
+    UIDDataType [] dataTypes();
+    UIDUsageRationale rationaleCategory();
     String rationaleExplanation();
     Visibility dataCollectionVisibility();
     JitNoticeFrequency jitNoticeDefaultFrequency();

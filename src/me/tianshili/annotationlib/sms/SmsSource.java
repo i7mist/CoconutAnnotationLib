@@ -1,16 +1,15 @@
-package me.tianshili.annotationlib.location;
-
+package me.tianshili.annotationlib.sms;
 
 import me.tianshili.annotationlib.commons.*;
 
 /**
- * Created by tianshi on 11/9/17.
+ * Created by tiffany on 4/19/19.
  */
 
-public @interface LocationSource {
+public @interface SmsSource {
     String dataSourceID();
-    LocationDataType [] dataTypes();
-    LocationUsageRationale rationaleCategory();
+    SmsDataType [] dataTypes();
+    SmsUsageRationale rationaleCategory();
     String rationaleExplanation();
     Visibility dataCollectionVisibility();
     JitNoticeFrequency jitNoticeDefaultFrequency();

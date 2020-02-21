@@ -6,6 +6,10 @@ import me.tianshili.annotationlib.commons.*;
  */
 
 public @interface CalendarSource {
-    String ID();
-    String [] purposes();
+    String dataSourceID();
+    CalendarDataType[] dataTypes();
+    CalendarUsageRationale rationaleCategory();
+    String rationaleExplanation();
+    Visibility dataCollectionVisibility();
+    JitNoticeFrequency jitNoticeDefaultFrequency();
 }

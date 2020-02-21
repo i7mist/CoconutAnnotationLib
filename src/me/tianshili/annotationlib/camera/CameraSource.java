@@ -1,5 +1,6 @@
 package me.tianshili.annotationlib.camera;
 
+import me.tianshili.annotationlib.commons.JitNoticeFrequency;
 import me.tianshili.annotationlib.commons.Visibility;
 
 /**
@@ -8,6 +9,10 @@ import me.tianshili.annotationlib.commons.Visibility;
  * @author elijahneundorfer on 6/3/19
  */
 public @interface CameraSource {
-    String ID();
-    String [] purposes();
+    String dataSourceID();
+    CameraDataType[] dataTypes();
+    CameraUsageRationale rationaleCategory();
+    String rationaleExplanation();
+    Visibility dataCollectionVisibility();
+    JitNoticeFrequency jitNoticeDefaultFrequency();
 }

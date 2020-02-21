@@ -1,6 +1,6 @@
 package me.tianshili.annotationlib.userfiles;
 
-public enum UserFilePurpose {
+public enum UserFileUsageRationale {
     ACCESS_PHOTO_ALBUM,
     MANAGE_DOWNLOADED_FILES,
     APP_DATA_PERSISTENT_STORAGE,
