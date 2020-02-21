@@ -5,7 +5,8 @@ package me.tianshili.annotationlib.commons;
  */
 
 public enum Visibility {
-    WHILE_IN_USE,
-    IN_BACKGROUND, // what about recording? How is this regulated in iOS
+    IN_FOREGROUND,
+    IN_BACKGROUND,
+    BOTH_FOREGROUND_AND_BACKGROUND,
     UNKNOWN,
 }
