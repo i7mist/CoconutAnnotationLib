@@ -15,6 +15,7 @@ public enum UserInputDataType {
     DIRECT_MESSAGE, // SMS, Instant messages, meant for private conversations
     FEEDBACK, // feedback on services
     USER_GENERATED_CONTENT, // posts, comment
+    FILE_NAME,
     OTHER_INFO,
     // TODO: check wikipedia PII list
     UNKNOWN
