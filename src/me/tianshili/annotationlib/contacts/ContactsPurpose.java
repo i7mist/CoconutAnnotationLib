@@ -2,7 +2,7 @@ package me.tianshili.annotationlib.contacts;
 
 //TODO: Update ContactsUsageRationale based on some predetermined metric
 
-public enum ContactsUsageRationale {
+public enum ContactsPurpose {
     BACKUP_AND_SYNCHRONIZATION,
     CONTACT_MANAGEMENT,
     BLACKLIST,
@@ -12,6 +12,4 @@ public enum ContactsUsageRationale {
     FIND_FRIENDS,
     RECORD,
     FAKE_CALLS_AND_SMS,
-    OTHER_PURPOSES,
-    UNKNOWN
 }

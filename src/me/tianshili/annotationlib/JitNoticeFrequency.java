@@ -1,4 +1,4 @@
-package me.tianshili.annotationlib.commons;
+package me.tianshili.annotationlib;
 
 public enum JitNoticeFrequency {
     DO_NOT_SEND_NOTIFICATION,

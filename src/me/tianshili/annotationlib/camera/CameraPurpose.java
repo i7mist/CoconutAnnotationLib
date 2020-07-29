@@ -4,7 +4,7 @@ package me.tianshili.annotationlib.camera;
  *
  * @author elijahneundorfer on 6/3/19
  */
-public enum CameraUsageRationale {
+public enum CameraPurpose {
     FLASHLIGHT, //Turn on/off flashlight
     VIDEO_STREAMING, //Steam the video capture
     CODE_SCANNING, //Scan QR code
