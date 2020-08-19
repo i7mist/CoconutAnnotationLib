@@ -9,7 +9,7 @@ public class DataType {
     public final static int Microphone = 6;
     public final static int MotionSensor = 7;
     public final static int BodySensor = 8;
-    public final static int SMS = 9;
+    public final static int Sms = 9;
     public final static int UniqueId = 10;
     public final static int UserFile = 11;
     public final static int UserInput = 12;
