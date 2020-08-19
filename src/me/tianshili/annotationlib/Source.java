@@ -5,5 +5,5 @@ public @interface Source {
     int dataType();
     int purposeName();
     int purposeText() default -1;
-    JitNoticeFrequency jitNoticeFrequency() default JitNoticeFrequency.UNKNOWN;
+    boolean conditional() default false;
 }
