@@ -7,3 +7,10 @@ public enum JitNoticeFrequency {
     NOTIFICATION_ALWAYS_POP_OUT,
     UNKNOWN
 }
+//
+//public enum Transparency {
+//    DATA_COLLECTION_IS_EXPLICIT_TO_USERS,
+//    DATA_COLLECTION_IS_NOT_OBVIOUS_TO_USERS,
+//    UNKNOWN
+//}
+

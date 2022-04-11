@@ -1,9 +1,6 @@
 package me.tianshili.annotationlib;
 
 public @interface Source {
-    String caller() default "";
-    int dataType();
+    int sourceData();
     int purposeName();
-    int purposeText() default -1;
-    boolean conditional() default false;
 }

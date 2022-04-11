@@ -18,4 +18,5 @@ public class DataType {
     public final static int RunningApps = 15;
     public final static int Notification = 16;
     public final static int Accessibility = 17;
+    public final static int SystemLogs = 18;
 }
