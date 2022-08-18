@@ -19,7 +19,7 @@ public class DataType {
     public static final String HealthAndFitness_HealthInfo = "About a user's health, such as medical records or symptoms.";
     public static final String HealthAndFitness_FitnessInfo = "About a user's fitness, such as exercise or other physical activity.";
     public static final String Messages_Emails = "A user’s emails including the email subject line, sender, recipients, and the content of the email.";
-    public static final String MessÏages_SmsOrMms = "A user’s text messages including the sender, recipients, and the content of the message.";
+    public static final String Messages_SmsOrMms = "A user’s text messages including the sender, recipients, and the content of the message.";
     public static final String Messages_InAppMessages = "Any other types of messages. For example, instant messages or chat content.";
     public static final String PhotosAndVideos_Photos = "A user’s photos.";
     public static final String PhotosAndVideos_Videos = "A user’s videos.";
